@@ -39,6 +39,7 @@ body {
 
 .data {
     padding: 1rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,4 +56,39 @@ body {
 
 .data > .conditions {
     font-size: 1.25rem;
+}
+
+.data > .otherinfo {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data > .otherinfo > .precipprob {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.data > .otherinfo > .precipprob > img {
+    height: 1.5rem;
+}
+
+.data > .otherinfo > .precipprob > div {
+    font-size: 1.5rem;
+}
+
+.data > .otherinfo > .sun {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.data > .otherinfo > .sun > img {
+    height: 1.5rem;
+}
+
+.data > .otherinfo > .sun > div {
+    font-size: 1.5rem;
 }

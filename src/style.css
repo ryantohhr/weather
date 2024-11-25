@@ -1,0 +1,58 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #253f5c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.searchbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.searchbar > input {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.searchbar > input:focus {
+    border: none;
+    outline: none;
+}
+
+.searchbar > svg {
+    height: 2rem;
+}
+
+.data {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data > img {
+    height: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.data > .temp {
+    font-size: 2.5rem;
+}
+
+.data > .conditions {
+    font-size: 1.25rem;
+}
